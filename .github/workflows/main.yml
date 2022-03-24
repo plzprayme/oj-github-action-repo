@@ -19,3 +19,4 @@ jobs:
         run: |
           echo "The time was ${{ steps.readme.outputs.list }}"
           echo "The time was ${{ steps.readme.outputs.cur }}"
+          echo "The time was ${{ steps.readme.outputs.result }}"
