@@ -11,4 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: plzprayme/online-judge-directory-tree-to-readme@beta
+      - id: readme
+        uses: plzprayme/online-judge-directory-tree-to-readme@beta
+      
+      
+      - name: print outs
+        run: |
+          echo "The time was ${{ steps.readme.outputs.list }}"
+          echo "The time was ${{ steps.readme.outputs.cur }}"
