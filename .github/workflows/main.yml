@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - id: readme
-        uses: plzprayme/online-judge-directory-tree-to-readme@beta
+        uses: plzprayme/online-judge-directory-tree-to-readme@application
       
       
       - name: print outs
