@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-#       - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - id: readme
         uses: plzprayme/online-judge-directory-tree-to-readme@application
