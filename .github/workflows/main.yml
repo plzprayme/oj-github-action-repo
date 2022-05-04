@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - id: generate readme
+      - id: generate_readme
         uses: plzprayme/online-judge-directory-tree-to-readme@beta
